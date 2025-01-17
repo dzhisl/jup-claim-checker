@@ -1,4 +1,4 @@
-module github.com/dzhisl/jup-claim-checker
+module github.com/dzhisl/jupiter-airdrop-checker
 
 go 1.23.4
 

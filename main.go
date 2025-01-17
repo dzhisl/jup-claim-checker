@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dzhisl/jup-claim-checker/api"
-	"github.com/dzhisl/jup-claim-checker/types"
-	"github.com/dzhisl/jup-claim-checker/utils"
+	"github.com/dzhisl/jupiter-airdrop-checker/api"
+	"github.com/dzhisl/jupiter-airdrop-checker/types"
+	"github.com/dzhisl/jupiter-airdrop-checker/utils"
 	"github.com/jedib0t/go-pretty/v6/table"
 )
 

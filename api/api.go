@@ -9,8 +9,8 @@ import (
 	http "github.com/bogdanfinn/fhttp"
 	tls_client "github.com/bogdanfinn/tls-client"
 	"github.com/bogdanfinn/tls-client/profiles"
-	"github.com/dzhisl/jup-claim-checker/types"
-	"github.com/dzhisl/jup-claim-checker/utils"
+	"github.com/dzhisl/jupiter-airdrop-checker/types"
+	"github.com/dzhisl/jupiter-airdrop-checker/utils"
 )
 
 // create TLS client with proxy to bypass cloudflare anti-bot
