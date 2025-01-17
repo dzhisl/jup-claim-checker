@@ -76,7 +76,6 @@ func GetJupAllocation(walletPubKey string, proxies []*url.URL) (types.GetAllocat
 func setRequestHeaders(req *http.Request) {
 	req.Header.Set("accept", "*/*")
 	req.Header.Set("accept-language", "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7")
-	// req.Header.Set("cookie", "__Host-next-auth.csrf-token=914a737686fd97537615dcdc8b3b080df9340ff9ecacf0ee73b94cdd5118bf71%7C8dabf6072a471983576189d056cc0d14ed65867b40264ba00fc9ff66c653bcf3; __Secure-next-auth.callback-url=https%3A%2F%2Fjupuary.jup.ag")
 	req.Header.Set("priority", "u=1, i")
 	req.Header.Set("referer", fmt.Sprintf("https://jupuary.jup.ag/allocation/%s", req.URL.Query().Get("wallet")))
 	req.Header.Set("sec-ch-ua", `"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"`)
